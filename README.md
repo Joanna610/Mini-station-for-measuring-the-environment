@@ -1,7 +1,11 @@
-# Mini-station-for-measuring-the-environment
+# Mini Station for Measuring the Environment
 
-The station reads the data from two sensors about the information of environment. Then the data is presented on LCD display and additionally they are sent to MQTT broker. All infromation is read simultaneously thanks to FreeRTOS.
-<img src="overall_construction.jpg" alt="screenshot" width="500"/>
+The station reads data from two sensors to measure environmental parameters.
+The data is displayed on an LCD screen and additionally sent to an MQTT broker.
+All information is read simultaneously thanks to FreeRTOS.
 
-There is presneted received data in real time.
-<img src="result.png" alt="screenshot" width="500"/>
+<img src="overall_construction.jpg" alt="Overall construction" width="500"/>
+
+The received data is presented in real time.
+
+<img src="result.png" alt="Real-time measurement results" width="500"/>
